@@ -6,17 +6,17 @@ int main() {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-    std::tm date1 = {}; // Инициализация структуры std::tm для первой даты
-    std::tm date2 = {}; // Инициализация структуры std::tm для второй даты
+    std::tm date1 = {}; 
+    std::tm date2 = {}; 
     int g1 = 0;
     int g2 = 0;
     int m1 = 0;
     int m2 = 0;
     int d1 = 0;
     int d2 = 0;
-    // Заполнение date1 и date2 данными (например, с помощью std::cin или вручную)
+    
 
-    // Пример инициализации дат (год, месяц, день)
+    
     std::cout << " Введіть рік початку";
     std::cin >> g1;
     date1.tm_year = g1 - 1900; // Год минус 1900
