@@ -6,6 +6,7 @@ using namespace std;
 int main() {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
+    system("chcp 1251");
 
     int AB = 0;
     int BC = 0;
